@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <div class="location">
+        <h2>Your Feed</h2>
+    </div>
+    <!-- main -->
+    <div class="container">
+        <!-- profile -->
+        <div class="profile">
+            <img src="./images/user-circle.png" alt="user">
+            <a href="">Add an avatar</a><br>
+            <p>James Doe</p>
+        </div>
+        <!-- posts -->
+        <div class="main">
+            <!-- first post -->
+            <div class="post">
+                <div class="info">
+                    <p>Neil M</p>
+                    <p class="allLikes">
+                        0 like(s)
+                    </p>
+                    <button class="like" onclick="add(this)">Like</button>
+                </div>
+                <div class="text">
+                    <p>
+                        I just set up this new discord bot, let me know what you all think. <a href="">link</a>
+                    </p>
+                </div>
+            </div>
+            <!-- second post -->
+            <div class="post">
+                <div class="info">
+                    <p>Nichole K</p>
+                    <p class="allLikes">
+                        0 like(s)
+                    </p>
+                    <button class="like" onclick="add(this)">Like</button>
+                </div>
+                <div class="text">
+                    <p>
+                        Just finished my <a href="">next comic</a>, check it out.
+                    </p>
+                </div>
+            </div>
+            <!-- third post -->
+            <div class="post">
+                <div class="info">
+                    <p>Jim R</p>
+                    <p class="allLikes">
+                        0 like(s)
+                    </p>
+                    <button class="like" onclick="add(this)">Like</button>
+                </div>
+                <div class="text">
+                    <p>
+                        I can't stop listening to the <a href="">new album</a>. Who else is liking it?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
